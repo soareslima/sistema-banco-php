@@ -50,4 +50,9 @@ class Conta
         $this->sacar($valorATransferir);
         $contaDestino->depositar($valorATransferir);
     }
+
+    public function teste(): void
+    {
+        return;
+    }
 }
